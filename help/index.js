@@ -16,7 +16,7 @@ fetch("https://vcudbl.deta.dev/users", {
   },
 
   //make sure to serialize your JSON body
-  body: JSON.stringify(message)
+  body: message
 })
 .then( (response) => { 
    console.log("done!")
