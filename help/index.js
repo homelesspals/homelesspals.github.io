@@ -5,7 +5,7 @@ let postMsg = () => {
 
     let message = `{
         "email": ${email},
-        "request": ${request},
+        "request": ${request}
     }`
 
 fetch("https://vcudbl.deta.dev/users", {
