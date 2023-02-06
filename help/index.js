@@ -22,6 +22,9 @@ fetch("https://vcudbl.deta.dev/users", {
    console.log("done!")
 });
 
+document.querySelector('form').style.display = none;
+document.getElementById('hidden').style.display = block;
+
 }
 
 document.getElementById('submit').onclick = postMsg
