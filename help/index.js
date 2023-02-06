@@ -4,8 +4,8 @@ let postMsg = () => {
     const request = DOMPurify.sanitize(document.getElementById('help-needed').value)
 
     let message = `{
-        "email": ${email},
-        "request": ${request}
+        "email": "${email}",
+        "request": "${request}"
     }`
 
 fetch("https://vcudbl.deta.dev/users", {
