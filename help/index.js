@@ -22,8 +22,8 @@ fetch("https://vcudbl.deta.dev/users", {
    console.log("done!")
 });
 
-document.querySelector('form').display.style = none;
-document.getElementById('hidden').display.style = block;
+document.querySelector('form').style.display = "none";
+document.getElementById('hidden').style.display = "block";
 
 }
 
