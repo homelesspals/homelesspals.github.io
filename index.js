@@ -3,7 +3,7 @@ class SiteHeader extends HTMLElement {
       this.innerHTML = `
       <h1 id="title"><a href="/index.html">homeless pals</a></h1>
       <nav class="round-border font-4 scroll">
-      <a href="help/index.html">GET HELP</a>
+      <a href="/help/index.html">GET HELP</a>
       &nbsp;&#x27E1;&nbsp;
       <a href="#footer">CONTACT</a>
       &nbsp;&#x27E1;&nbsp;
