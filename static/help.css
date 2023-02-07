@@ -84,6 +84,7 @@ mark {
 #title{
     font-size: var(--font-size-6);
     font-family: Avara, Helvetica, sans-serif;
+    text-align: center;
 }
 
 #title a:link, nav a:link, #blog a:link {

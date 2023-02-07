@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: "Avara";
+    src: url("/fonts/Avara/Avara-BoldItalic.ttf") format("truetype"),  
+    url("/fonts/Avara/Avara-BoldItalic.woff") format("woff"), 
+    url("/fonts/Avara/Avara-BoldItalic.woff2") format("woff2") ;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Basteleur";
+    src: url("/fonts/Basteleur/Basteleur-Bold.woff") format("woff"), 
+    url("/fonts/Basteleur/Basteleur-Bold.woff2") format("woff2") ;
+    font-display: swap;
+  }
+  
+
+
+:root {
+    --background:var(--stone-0);
+    --accent:var(--brown-12);
+    --color: var(--stone-12);
+    --inverse-color:var(--stone-0);
+    --mark: var(--stone-1);
+    --link: var(--brown-9);
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+
+    :root {
+        --background:var(--stone-12);
+        --accent:var(--brown-0);
+        --color: var(--stone-0);
+        --inverse-color:var(--stone-12);
+        --mark: var(--stone-11);
+        --link: var(--brown-2)
+
+    }
+
+}
+
+
+body {
+    background-color: var(--background);
+    color: var(--color);
+    width: min(100% - 3rem, var(--container-max, 60ch));
+    margin-inline: auto;
+    font-family: monospace;
+}
+
+body, 
+body > * {
+    padding: var(--size-2);
+}
+
+header{
+    text-align: center;
+    
+}
+mark {
+    background-color: var(--mark);
+}
+
+.round-border{
+    border: var(--border-size-1) solid var(--accent);
+    border-radius: var(--size-1);
+}
+
+
+.font-4 {
+    font-size: var(--font-size-4);
+    font-family: Basteleur, serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+#title{
+    font-size: var(--font-size-6);
+    font-family: Avara, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+#title a:link, nav a:link, #blog a:link {
+    color: var(--color);
+    text-decoration: none;
+}
+
+main {
+    font-size: var(--font-size-3);
+}
+
+a:link {
+    color: var(--link);
+}
+
+.scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+ }
+
+ .scroll > figure, .scroll > .article {
+    display: inline-block;
+    padding: var(--size-1);
+
+ }
+
+
+
+
+
+
+
+ 

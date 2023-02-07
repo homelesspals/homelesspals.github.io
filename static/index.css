@@ -84,6 +84,8 @@ mark {
 #title{
     font-size: var(--font-size-6);
     font-family: Avara, Helvetica, sans-serif;
+    text-align: center;
+
 }
 
 #title a:link, nav a:link, #blog a:link {
@@ -109,9 +111,16 @@ a:link {
     display: none;
  }
 
- .scroll > figure, .scroll > .article {
+ .scroll > figure, .scroll > section {
     display: inline-block;
     padding: var(--size-1);
+
+ }
+
+ .scroll > section {
+    max-width: 200px;
+    white-space:normal;
+
 
  }
 
