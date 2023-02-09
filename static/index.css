@@ -118,7 +118,9 @@ a:link {
  }
 
  .scroll > section {
+    max-height: 200px;
     max-width: 200px;
+
     white-space:normal;
 
 
