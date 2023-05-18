@@ -127,7 +127,7 @@ a:link {
  }
 
 figure img {
-    width: 150px;
+    height: 200px;
     box-shadow: var(--shadow-2);
 }
 
